@@ -24,6 +24,21 @@ final class RootViewController: UIViewController, RootPresentable, RootViewContr
     }
     
     private func setupViews() {
-        view.backgroundColor = .red
+        view.backgroundColor = .white
     }
+    
+    func present(vc: ViewControllable) {
+        self.present(vc.uiviewController, animated: true, completion: nil)
+    }
+    
+    func dismiss(vc: ViewControllable) {
+        if presentedViewController == vc.uiviewController {
+            self.dismiss(animated: true, completion: nil)
+        }
+    }
+    
+}
+
+extension RootViewController: LoggedInViewControllable {
+    
 }

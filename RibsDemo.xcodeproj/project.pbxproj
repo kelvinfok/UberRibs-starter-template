@@ -16,6 +16,21 @@
 		8DCC4B23231BAC0200D9C019 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC4B1F231BAC0200D9C019 /* RootViewController.swift */; };
 		8DCC4B24231BAC0200D9C019 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC4B20231BAC0200D9C019 /* RootBuilder.swift */; };
 		8DCC4B25231BAC0200D9C019 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC4B21231BAC0200D9C019 /* RootInteractor.swift */; };
+		8DCC4B2E231BB13300D9C019 /* LoggedOutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC4B2A231BB13300D9C019 /* LoggedOutRouter.swift */; };
+		8DCC4B2F231BB13300D9C019 /* LoggedOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC4B2B231BB13300D9C019 /* LoggedOutViewController.swift */; };
+		8DCC4B30231BB13300D9C019 /* LoggedOutBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC4B2C231BB13300D9C019 /* LoggedOutBuilder.swift */; };
+		8DCC4B31231BB13300D9C019 /* LoggedOutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCC4B2D231BB13300D9C019 /* LoggedOutInteractor.swift */; };
+		8DE11773231C08D5001F3847 /* LoggedInRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE11770231C08D5001F3847 /* LoggedInRouter.swift */; };
+		8DE11774231C08D5001F3847 /* LoggedInBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE11771231C08D5001F3847 /* LoggedInBuilder.swift */; };
+		8DE11775231C08D5001F3847 /* LoggedInInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE11772231C08D5001F3847 /* LoggedInInteractor.swift */; };
+		8DE1177B231C10AD001F3847 /* OffGameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE11777231C10AD001F3847 /* OffGameRouter.swift */; };
+		8DE1177C231C10AD001F3847 /* OffGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE11778231C10AD001F3847 /* OffGameViewController.swift */; };
+		8DE1177D231C10AD001F3847 /* OffGameBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE11779231C10AD001F3847 /* OffGameBuilder.swift */; };
+		8DE1177E231C10AD001F3847 /* OffGameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE1177A231C10AD001F3847 /* OffGameInteractor.swift */; };
+		8DE11784231C168C001F3847 /* GameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE11780231C168C001F3847 /* GameRouter.swift */; };
+		8DE11785231C168C001F3847 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE11781231C168C001F3847 /* GameViewController.swift */; };
+		8DE11786231C168C001F3847 /* GameBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE11782231C168C001F3847 /* GameBuilder.swift */; };
+		8DE11787231C168C001F3847 /* GameInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE11783231C168C001F3847 /* GameInteractor.swift */; };
 		9217C3FCCF47B971673F91D0 /* Pods_RibsDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7399F9ABC8D24CD5DFFBAA /* Pods_RibsDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +48,21 @@
 		8DCC4B1F231BAC0200D9C019 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		8DCC4B20231BAC0200D9C019 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
 		8DCC4B21231BAC0200D9C019 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		8DCC4B2A231BB13300D9C019 /* LoggedOutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutRouter.swift; sourceTree = "<group>"; };
+		8DCC4B2B231BB13300D9C019 /* LoggedOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutViewController.swift; sourceTree = "<group>"; };
+		8DCC4B2C231BB13300D9C019 /* LoggedOutBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutBuilder.swift; sourceTree = "<group>"; };
+		8DCC4B2D231BB13300D9C019 /* LoggedOutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedOutInteractor.swift; sourceTree = "<group>"; };
+		8DE11770231C08D5001F3847 /* LoggedInRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInRouter.swift; sourceTree = "<group>"; };
+		8DE11771231C08D5001F3847 /* LoggedInBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInBuilder.swift; sourceTree = "<group>"; };
+		8DE11772231C08D5001F3847 /* LoggedInInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedInInteractor.swift; sourceTree = "<group>"; };
+		8DE11777231C10AD001F3847 /* OffGameRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameRouter.swift; sourceTree = "<group>"; };
+		8DE11778231C10AD001F3847 /* OffGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameViewController.swift; sourceTree = "<group>"; };
+		8DE11779231C10AD001F3847 /* OffGameBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameBuilder.swift; sourceTree = "<group>"; };
+		8DE1177A231C10AD001F3847 /* OffGameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffGameInteractor.swift; sourceTree = "<group>"; };
+		8DE11780231C168C001F3847 /* GameRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRouter.swift; sourceTree = "<group>"; };
+		8DE11781231C168C001F3847 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8DE11782231C168C001F3847 /* GameBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBuilder.swift; sourceTree = "<group>"; };
+		8DE11783231C168C001F3847 /* GameInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInteractor.swift; sourceTree = "<group>"; };
 		9C7399F9ABC8D24CD5DFFBAA /* Pods_RibsDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RibsDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -87,6 +117,10 @@
 		8DCC4AFC231BAADF00D9C019 /* RibsDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8DE1177F231C1683001F3847 /* Game */,
+				8DE11776231C1090001F3847 /* OffGame */,
+				8DE11767231C089D001F3847 /* LoggedIn */,
+				8DCC4B29231BB11500D9C019 /* LoggedOut */,
 				8DCC4B1D231BABF300D9C019 /* Root */,
 				8DCC4B11231BAB5A00D9C019 /* AppStart */,
 				8DCC4B04231BAAE100D9C019 /* Assets.xcassets */,
@@ -114,6 +148,49 @@
 				8DCC4B21231BAC0200D9C019 /* RootInteractor.swift */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		8DCC4B29231BB11500D9C019 /* LoggedOut */ = {
+			isa = PBXGroup;
+			children = (
+				8DCC4B2A231BB13300D9C019 /* LoggedOutRouter.swift */,
+				8DCC4B2B231BB13300D9C019 /* LoggedOutViewController.swift */,
+				8DCC4B2C231BB13300D9C019 /* LoggedOutBuilder.swift */,
+				8DCC4B2D231BB13300D9C019 /* LoggedOutInteractor.swift */,
+			);
+			path = LoggedOut;
+			sourceTree = "<group>";
+		};
+		8DE11767231C089D001F3847 /* LoggedIn */ = {
+			isa = PBXGroup;
+			children = (
+				8DE11770231C08D5001F3847 /* LoggedInRouter.swift */,
+				8DE11771231C08D5001F3847 /* LoggedInBuilder.swift */,
+				8DE11772231C08D5001F3847 /* LoggedInInteractor.swift */,
+			);
+			path = LoggedIn;
+			sourceTree = "<group>";
+		};
+		8DE11776231C1090001F3847 /* OffGame */ = {
+			isa = PBXGroup;
+			children = (
+				8DE11777231C10AD001F3847 /* OffGameRouter.swift */,
+				8DE11778231C10AD001F3847 /* OffGameViewController.swift */,
+				8DE11779231C10AD001F3847 /* OffGameBuilder.swift */,
+				8DE1177A231C10AD001F3847 /* OffGameInteractor.swift */,
+			);
+			path = OffGame;
+			sourceTree = "<group>";
+		};
+		8DE1177F231C1683001F3847 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				8DE11780231C168C001F3847 /* GameRouter.swift */,
+				8DE11781231C168C001F3847 /* GameViewController.swift */,
+				8DE11782231C168C001F3847 /* GameBuilder.swift */,
+				8DE11783231C168C001F3847 /* GameInteractor.swift */,
+			);
+			path = Game;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,11 +309,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DCC4AFE231BAADF00D9C019 /* AppDelegate.swift in Sources */,
+				8DCC4B2F231BB13300D9C019 /* LoggedOutViewController.swift in Sources */,
+				8DE11775231C08D5001F3847 /* LoggedInInteractor.swift in Sources */,
 				8DCC4B25231BAC0200D9C019 /* RootInteractor.swift in Sources */,
+				8DE11784231C168C001F3847 /* GameRouter.swift in Sources */,
+				8DE11786231C168C001F3847 /* GameBuilder.swift in Sources */,
 				8DCC4B22231BAC0200D9C019 /* RootRouter.swift in Sources */,
+				8DE11774231C08D5001F3847 /* LoggedInBuilder.swift in Sources */,
+				8DE1177B231C10AD001F3847 /* OffGameRouter.swift in Sources */,
+				8DE11785231C168C001F3847 /* GameViewController.swift in Sources */,
 				8DCC4B24231BAC0200D9C019 /* RootBuilder.swift in Sources */,
+				8DCC4B2E231BB13300D9C019 /* LoggedOutRouter.swift in Sources */,
+				8DE11787231C168C001F3847 /* GameInteractor.swift in Sources */,
 				8DCC4B13231BAB8700D9C019 /* AppComponent.swift in Sources */,
+				8DCC4B31231BB13300D9C019 /* LoggedOutInteractor.swift in Sources */,
+				8DE1177D231C10AD001F3847 /* OffGameBuilder.swift in Sources */,
 				8DCC4B23231BAC0200D9C019 /* RootViewController.swift in Sources */,
+				8DCC4B30231BB13300D9C019 /* LoggedOutBuilder.swift in Sources */,
+				8DE11773231C08D5001F3847 /* LoggedInRouter.swift in Sources */,
+				8DE1177E231C10AD001F3847 /* OffGameInteractor.swift in Sources */,
+				8DE1177C231C10AD001F3847 /* OffGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

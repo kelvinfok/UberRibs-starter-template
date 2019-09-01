@@ -1,5 +1,5 @@
 //
-//  RootInteractor.swift
+//  GameInteractor.swift
 //  RibsDemo
 //
 //  Created by Kelvin Fok on 1/9/19.
@@ -9,33 +9,27 @@
 import RIBs
 import RxSwift
 
-protocol RootRouting: ViewableRouting {
-    
-    func routeToLoggedIn()
+protocol GameRouting: ViewableRouting {
     // TODO: Declare methods the interactor can invoke to manage sub-tree via the router.
 }
 
-protocol RootPresentable: Presentable {
-    var listener: RootPresentableListener? { get set }
+protocol GamePresentable: Presentable {
+    var listener: GamePresentableListener? { get set }
     // TODO: Declare methods the interactor can invoke the presenter to present data.
 }
 
-protocol RootListener: class {
+protocol GameListener: class {
     // TODO: Declare methods the interactor can invoke to communicate with other RIBs.
 }
 
-final class RootInteractor: PresentableInteractor<RootPresentable>, RootInteractable, RootPresentableListener {
-    
-    func didLogin() {
-        router?.routeToLoggedIn()
-    }
+final class GameInteractor: PresentableInteractor<GamePresentable>, GameInteractable, GamePresentableListener {
 
-    weak var router: RootRouting?
-    weak var listener: RootListener?
-    
+    weak var router: GameRouting?
+    weak var listener: GameListener?
+
     // TODO: Add additional dependencies to constructor. Do not perform any logic
     // in constructor.
-    override init(presenter: RootPresentable) {
+    override init(presenter: GamePresentable) {
         super.init(presenter: presenter)
         presenter.listener = self
     }
